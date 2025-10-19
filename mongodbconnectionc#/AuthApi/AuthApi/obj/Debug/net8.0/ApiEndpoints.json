@@ -1,0 +1,193 @@
+[
+  {
+    "ContainingType": "AuthApi.Controllers.OglasiController",
+    "Method": "GetAll",
+    "RelativePath": "api/Oglasi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Brand",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Model",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinPrice",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MinYear",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxYear",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Color",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BodyStyle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fuel",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Transmission",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Doors",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Seats",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StanjeVozila",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipPonudbe",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Lastnik",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Kraj",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Regija",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Telefon",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthApi.Controllers.OglasiController",
+    "Method": "Post",
+    "RelativePath": "api/Oglasi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oglasDto",
+        "Type": "AuthApi.Controllers.OglasiController\u002BOglasDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthApi.Controllers.OglasiController",
+    "Method": "Delete",
+    "RelativePath": "api/Oglasi",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oglasDto",
+        "Type": "AuthApi.Controllers.OglasiController\u002BOglasDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthApi.Controllers.RegisterController",
+    "Method": "Login",
+    "RelativePath": "api/Register/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "AuthApi.Controllers.RegisterController\u002BLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthApi.Controllers.RegisterController",
+    "Method": "Register",
+    "RelativePath": "api/Register/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "AuthApi.Controllers.RegisterController\u002BUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthApi.Controllers.RegisterController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Register/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AuthApi.Controllers.RegisterController\u002BUpdateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
